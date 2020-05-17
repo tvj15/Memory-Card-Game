@@ -96,7 +96,7 @@ def button(text, colour, coordinates, x, y):  # to display the buttons
     s.blit(start, coordinates)
 
 
-def scoreBoard():  # to display scoreboard
+def scoreBoard():  # to display the scoreboard
     global flips, combinations, start_time, time, gameStart, m_x, m_y, click
     hfont = pygame.font.SysFont("Trebuchet MS", 50, italic="True")
     cFont = pygame.font.SysFont("Trebuchet MS", 22)
